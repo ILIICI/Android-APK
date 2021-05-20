@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutUsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:textAlignment="center"
+            android:text="Despre Aplicatie"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:gravity="center_horizontal">
+        </TextView>
+        <TextView
+            android:text="Acesta aplicatia este un proiect de teza a studentul ILIICI VITALI.Imaginele si textul applicatie sunt prealute din surse publice fara careva drepturi de autor fiind mentionate.In caz ca aveti careva reclamatii sau presupuneti ca drepturile de autor ale Dmvs au fost fraudate, va rog sa ma contactati pe viliici@yahoo.com"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:text="linkedin.com/in/vitali-iliici"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

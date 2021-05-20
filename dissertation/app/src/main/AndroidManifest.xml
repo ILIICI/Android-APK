@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dissertation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".TestActivityPack.TestResult"></activity>
+        <activity android:name=".TestActivityPack.TestActivityCards" />
+        <activity android:name=".LawsActivityChapter"
+                  android:label="@string/search"
+                  android:theme="@style/Theme.AppCompat.Light" />
+        <activity
+            android:name=".TrafficSignsActivity"
+            android:label="@string/search"
+            android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:name=".TrafficSignsDashBoardActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".AchievementActivity" />
+        <activity android:name=".LawsActivity" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".StudyActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

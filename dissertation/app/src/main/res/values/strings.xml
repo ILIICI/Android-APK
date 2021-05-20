@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">dissertation</string>
+    <string name="search">Ajutama sa gasesc</string>
+    <string name="first_activity">STUDIAZA</string>
+    <string name="second_activity">TESTE</string>
+    <string name="third_activity">COD RUTIER</string>
+    <string name="forth_activity">SEMNE</string>
+    <string name="fifth_activity">REZULTATE</string>
+    <string name="sixth_activity">CAUTARE</string>
+    <string name="seventh_activity">SETARI</string>
+    <string name="eighth_activity">DESPRE NOI</string>
+</resources>

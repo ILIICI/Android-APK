@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraintLayout"
+    tools:context=".TestActivityPack.TestActivityCards">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingConstraints">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textview_correct_answer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Raspunsuri corecte"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/textview_question_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textview_correct_answer"
+                    android:layout_marginLeft="10dp"
+                    android:text="Intrebarea: 1/x"
+                    android:textSize="20sp">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textview_timer"
+                    android:layout_marginLeft="65dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="22:00"
+                    android:textSize="30sp">
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageview_test_question"
+            android:layout_above="@+id/textview_test_question"
+            android:src="@drawable/learn"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ImageView>
+        <TextView
+            android:id="@+id/textview_test_question"
+            android:layout_centerInParent="true"
+            android:text="Question text"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <RadioGroup
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/radio_group_button"
+            android:layout_below="@id/textview_test_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio_button_option1"
+                android:text="answer 1"
+                android:textSize="20sp"
+                android:padding="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/radio_button_option2"
+                android:text="answer 2"
+                android:textSize="20sp"
+                android:padding="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/radio_button_option3"
+                android:text="answer 3"
+                android:textSize="20sp"
+                android:padding="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </RadioButton>
+            <RadioButton
+                android:id="@+id/radio_button_option4"
+                android:text="answer 4"
+                android:textSize="20sp"
+                android:padding="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </RadioButton>
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/button_confirm_next"
+            android:layout_below="@+id/radio_group_button"
+            android:text="Confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+
+</ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
